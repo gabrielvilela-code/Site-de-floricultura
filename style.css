@@ -50,7 +50,7 @@ header{
 .links{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   list-style: none;
   
   
@@ -59,4 +59,43 @@ header{
     color: var(--cor4);
     text-decoration: none;
     font-family: var(--font2);
+    position: relative;
+   
+}
+ .links a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width:0;
+    height: 2px;
+    background-color: var(--cor5);
+    transition: width 0.2s ease;
+     
+   
+ }
+ .links a:hover::after{
+    width: 100%;
+    
+ }
+ .links a:hover{
+    color: var(--cor5);
+ }
+
+.c-icons{
+    display: flex;
+    align-items: center;
+    background-color:#cca983; 
+    border-radius: 9px;
+    padding: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+.c-icons p{
+   
+    font-family: var(--font3);
+}
+.c-icons:hover{
+  background-color: #967653;
+  transition: ease 0.4s;
 }
