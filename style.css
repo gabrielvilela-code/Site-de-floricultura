@@ -101,9 +101,25 @@ header{
 }
 
 .container{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+  
    
-    height: 90vh;
-   
+}
+.img-container{
+    position: absolute;
+    inset: 0;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  
 }
 .flores-1{
     width: 50%;
