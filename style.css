@@ -101,12 +101,9 @@ header{
 }
 
 .container{
-    background-image: url(Imagens/Buquê\ Romântico\ de\ Rosas\ Vermelhas.png);
+   
     height: 90vh;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-    background-attachment: fixed;
+   
 }
 .flores-1{
     width: 50%;
