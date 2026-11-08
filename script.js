@@ -36,5 +36,6 @@ function prevslider(){
     }
     mostrarSlide()
 }
+
 btnnext.addEventListener('click',nextslider)
 btnprev.addEventListener('click', prevslider)
