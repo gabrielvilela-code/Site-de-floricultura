@@ -309,13 +309,16 @@ header{
   grid-template-columns: repeat(4,1fr) ;
   gap: 20px;
 }
+.produtos-info{
+   flex: 1;
+}
 .foto-flores{
     display: flex;
     align-items: center ;
-    gap: 5px;
+    gap: 15px;
     background-color:#F3E8D5;
     border-radius: 10px;
-    padding: 20px;
+    padding: 8px;
 }
 .buque-img{
   width: 70px;
@@ -329,23 +332,26 @@ header{
     margin-bottom: 5px;
     color: var(--cor2);
     font-weight: bold;
-    margin-left: 20px;
+   
     
 }
 .desc{
     font-family: var(--font1);
-     margin-left: 20px;
+    font-size: 0.8rem;
+  
 }
 .arrow-produtos{
     display: flex;
     align-items: center;
+    flex-shrink: 0
    
 }
 .seta-produto{
-    display: flex;
     border: none;
     background-color: var(--cor1);
-  
     border-radius: 20px;
+}
+.seta-produto:hover{
+    background-color: var(--cor2);
 }
 
