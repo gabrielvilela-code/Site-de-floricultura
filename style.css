@@ -268,3 +268,42 @@ header{
 .ponto.on{
     background-color: var(--cor1);
 }
+.cat-h2-h4 h2{
+    margin-top: 10px;
+   color: var(--cor1);
+    text-align: center;
+    margin-bottom: 3px;
+    position: relative;
+}
+.cat-h2-h4 h2::after{
+    content: "";
+    position: absolute;
+    left: 57%;
+    bottom: 47% ;
+    width:10%;
+    height: 3px;
+    background-color: var(--cor2);
+}
+.cat-h2-h4 h2::before{
+    content: "";
+    position: absolute;
+    right: 57%;
+    bottom: 47% ;
+    width:10%;
+    height: 3px;
+    background-color: var(--cor2);
+}
+.cat-h2-h4 h4{
+    color: var(--cor1);
+    text-align: center;
+}
+.categoria-container{
+    background-color: var(--cor5);
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+
