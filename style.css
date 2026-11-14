@@ -298,12 +298,54 @@ header{
     text-align: center;
 }
 .categoria-container{
-    background-color: var(--cor5);
-    width: 30%;
-    height: 30%;
-    border-radius: 5px;
+    
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
     
 }
-
+.cards-categorias{
+  display: grid;
+  grid-template-columns: repeat(4,1fr) ;
+  gap: 20px;
+}
+.foto-flores{
+    display: flex;
+    align-items: center ;
+    gap: 5px;
+    background-color:#F3E8D5;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buque-img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px ;
+}
+.nome-buque{
+    font-family: var(--font1);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--cor2);
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.desc{
+    font-family: var(--font1);
+     margin-left: 20px;
+}
+.arrow-produtos{
+    display: flex;
+    align-items: center;
+   
+}
+.seta-produto{
+    display: flex;
+    border: none;
+    background-color: var(--cor1);
+  
+    border-radius: 20px;
+}
 
