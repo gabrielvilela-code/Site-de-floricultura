@@ -1,7 +1,11 @@
+// 1. Carrosel do Banner
+
+
 const slide = document.querySelectorAll('.slide')
 const btnprev = window.document.getElementById('prev')
 const btnnext = window.document.getElementById('next')
 const pontos = document.querySelectorAll('.ponto')
+
 
 let ativoS = 0;
 
@@ -39,3 +43,9 @@ function prevslider(){
 
 btnnext.addEventListener('click',nextslider)
 btnprev.addEventListener('click', prevslider)
+// 1. Carrosel do Banner
+
+
+// 2 Filtro das Categorias
+
+const Botoescategorias = document.querySelectorAll(".seta-produto");
